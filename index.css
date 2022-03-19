@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding:15px ;
+    margin-bottom: 20px;
+
+}
+
+.button {
+    background-color: #36bbce;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+nav {
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top:15px ;
+    margin-bottom:25px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+}
+
+article {
+    background-color: rgb(0, 0, 0);
+    padding:10px ;
+    width: 400px;
+    margin:35px  55px 35 px 55px ;
+    color: rgb(255, 255, 255);
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(102, 209, 30);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(89, 26, 192);
+    padding:15px ;
+}
+
+footer a {
+    margin-right:45px ;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+header,nav,.info,footer{
+display:flex;
+
+
+}
+
+p,table{
+    font-size: 20px;
+}
